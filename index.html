@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next-Word Prediction Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Next-Word Prediction Game</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Current Sentence</h2>
+            <p id="current-sentence">...</p>
+        </section>
+        <section>
+            <h2>Your Guess</h2>
+            <input type="text" id="user-input" placeholder="Enter your guess">
+            <button id="submit-guess">Submit</button>
+        </section>
+        <section>
+            <h2>Results</h2>
+            <p id="llm-prediction">LLM Prediction: <span>...</span></p>
+            <p id="correct-answer">Correct Answer: <span>...</span></p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
