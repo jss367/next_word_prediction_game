@@ -1,1 +1,1 @@
-# next_word_prediction_game
+Next-word Prediction Game
